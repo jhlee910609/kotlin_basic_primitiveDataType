@@ -15,7 +15,6 @@ INDEX VERSION 1.130+/Users/umsun_android/workspace/kotlin_basic/.metadata/.plugi
 1180484879.index
 2362891960.index
 2789758058.index
-1095036442.index
 206535591.index
 88183214.index
 1097848872.index
