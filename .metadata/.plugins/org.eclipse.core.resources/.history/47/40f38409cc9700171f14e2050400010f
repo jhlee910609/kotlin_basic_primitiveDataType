@@ -1,0 +1,6 @@
+fun Main (args : Array<String>){
+val s = "My name is \n junhee";
+println(s);	
+	
+	
+}

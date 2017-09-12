@@ -1,0 +1,11 @@
+fun main(args : Array<String>){
+	println("hello")
+	println(makeMessage(2));
+	
+	val s : String = "junhee";
+	println(s);
+}
+
+fun makeMessage(msgType : Int) : String {
+	return if(msgType == 1)"1 입니다." else "잘못 선택하셨습니다."
+}

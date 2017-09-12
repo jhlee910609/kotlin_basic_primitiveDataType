@@ -1,0 +1,36 @@
+fun main(args: Array<String>) {
+	println("hello")
+	println(makeMessage(2));
+
+	val name: String = "junhee";
+	println(name);
+
+	val age: Int = 3;
+	val strInt: String = "내 나이는 [" + age + "] 세 입니다.";
+	println(strInt);
+
+	bark();
+
+	val s1 = "My name is\njunhee";
+	println(s1);
+
+	val s2 = """
+      >대한민국
+      >만세만세
+			 """.trimMargin(">");
+ 	println(s2);
+	
+	val myAge : String = "7";
+	println(myAge.toInt() + 3 + "");
+	
+}
+
+// 함수 만들
+fun makeMessage(msgType: Int): String {
+	return if (msgType == 1) "1 입니다." else "잘못 선택하셨습니다."
+}
+
+fun bark() {
+	println("멍멍");
+}
+
